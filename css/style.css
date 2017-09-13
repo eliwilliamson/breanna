@@ -66,7 +66,8 @@ a:hover,a:focus {
 }
 
 .navbar-brand img{
-	max-height:50px;
+	height: 40px;
+  margin-top: -16px;
 }
 
 .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
@@ -80,6 +81,11 @@ a:hover,a:focus {
 
     .navbar-fixed-top .navbar-brand {
         padding: 15px 0;
+    }
+
+    .navbar-brand img{
+      height: 60px;
+      margin-top: -26px;
     }
 }
 
@@ -346,12 +352,24 @@ a:hover,a:focus {
 
 /* Thumbnail Images*/
 
+
+#portfolio .thumbnail {
+  height: 400px;
+}
+
 .photo-1 {background-image: url('../img/1.jpg');}
 .photo-2 {background-image: url('../img/2.jpg');}
 .photo-3 {background-image: url('../img/3.jpg');}
 .photo-4 {background-image: url('../img/4.jpg');}
 .photo-5 {background-image: url('../img/5.jpg');}
 .photo-6 {background-image: url('../img/6.jpg');}
+
+.photo-1,
+.photo-2,
+.photo-3,
+.photo-4 {
+  background-size: cover;
+}
 
 /* Modal Box */
 
